@@ -20,19 +20,45 @@ p {
   align-items: center;
   padding-bottom: 10px;
 }
-.flex-container {
+/* .flex-container {
   display: none;
-}
- div {
+} */
+
+ .flex-container {
   display: flex;
   justify-content: space-around;
   justify-content: space-evenly;
   color: white;
   font-size: 2vmin;
-
-  
-
+  flex-basis: content;
 }
+
+.top div {
+  
+  padding: 10px;
+ 
+  margin-bottom: 0px;
+}
+
+.bottom div {
+ 
+  padding: 10px;
+ 
+ 
+}
+
+/* .flex1 {
+  display: flex;
+  justify-content: space-around;
+  justify-content: space-evenly;
+  color: white;
+  font-size: 2vmin;
+  flex-basis: content;
+} */
+.hidden {
+  display: none;
+}
+
 /* .flex-container div  #key {
   color: blue;
 } */
