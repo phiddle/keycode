@@ -18,14 +18,24 @@ p {
   color: white; 
   text-align: center;
   align-items: center;
- padding-bottom: 10px;
+  padding-bottom: 10px;
 }
-.flex-container > div {
+.flex-container {
+  display: none;
+}
+ div {
   display: flex;
-  flex-direction: column;
-  background-color: #f1f1f1;
+  justify-content: space-around;
   justify-content: space-evenly;
+  color: white;
+  font-size: 2vmin;
+
+  
+
 }
+/* .flex-container div  #key {
+  color: blue;
+} */
 /* .flex-container {
   display: flex;
   flex-wrap: nowrap;

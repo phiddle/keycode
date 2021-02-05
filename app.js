@@ -15,6 +15,10 @@ document.addEventListener("keydown", function (event) {
   code.textContent = `code: ${event.code}`;
   let num = document.getElementById("num");
   num.textContent = `which: ${event.which}`;
+  let hiddenList = document.getElementsByClassName("flex-container");
+  for(let element of hiddenList) {
+  element.classList.remove("flex-container");
+  }
 });
 
 
