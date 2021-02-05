@@ -1,34 +1,54 @@
-* {
+body {
   height: 100vh;
-  background-color: rgb(66, 66, 66);
-}
-.container {
-  display: flex;
-  justify-content: space-around;
+  background-color: rgb(119, 104, 104);
 }
 
-h1 {
-  
-  text-shadow: 5px 5px 3px black;
+p {
   font-family: Arial, Helvetica, sans-serif;
-  margin-top: 350px;
-  margin-left: 150px;
+  margin-top: 40vh;
+  align-items: center;
   color: white;
   font-size: 40px;
+  text-shadow: 5px 5px 3px rgb(12, 11, 11);
   word-spacing: 20px;
-  
 }
 
-
-#key {
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    margin-left: 150px;
-    margin-top: 400px;
-    color: white;
-    text-shadow: 5px 5px 3px rgb(20, 20, 20);
+#which {
+  font-size: 40vmin;
+  color: white; 
+  text-align: center;
+  align-items: center;
+ padding-bottom: 10px;
 }
-#code {
+.flex-container > div {
+  display: flex;
+  flex-direction: column;
+  background-color: #f1f1f1;
+  justify-content: space-evenly;
+}
+/* .flex-container {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 150px;
+  margin-top: 400px;
+  color: white;
+  text-shadow: 5px 5px 3px rgb(20, 20, 20);
+}
+.flex-container {
+  display: none;
+}
+.flex-container {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 150px;
+  margin-top: 400px;
+  color: white;
+  text-shadow: 5px 5px 3px rgb(20, 20, 20);
+} */
+ /* box {
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
   margin-left: 200px;
@@ -43,8 +63,4 @@ h1 {
   margin-top: 400px;
   color: white;
   text-shadow: 5px 5px 3px rgb(20, 20, 20);
-}
-
-.container {
-  display: none; 
-}
+} */ 
