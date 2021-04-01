@@ -1,0 +1,102 @@
+body {
+  height: 100vh;
+  background-color: rgb(119, 104, 104);
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 40vh;
+  align-items: center;
+  color: white;
+  font-size: 40px;
+  text-shadow: 5px 5px 3px rgb(12, 11, 11);
+  word-spacing: 20px;
+}
+
+#which {
+  font-size: 40vmin;
+  color: white; 
+  text-align: center;
+  align-items: center;
+  padding-bottom: 10px;
+}
+/* .flex-container {
+  display: none;
+} */
+
+ .flex-container {
+  display: flex;
+  justify-content: space-around;
+  justify-content: space-evenly;
+  color: white;
+  font-size: 2vmin;
+  flex-basis: content;
+}
+
+.top div {
+  
+  padding: 10px;
+ 
+  margin-bottom: 0px;
+}
+
+.bottom div {
+ 
+  padding: 10px;
+ 
+ 
+}
+
+/* .flex1 {
+  display: flex;
+  justify-content: space-around;
+  justify-content: space-evenly;
+  color: white;
+  font-size: 2vmin;
+  flex-basis: content;
+} */
+.hidden {
+  display: none;
+}
+
+/* .flex-container div  #key {
+  color: blue;
+} */
+/* .flex-container {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 150px;
+  margin-top: 400px;
+  color: white;
+  text-shadow: 5px 5px 3px rgb(20, 20, 20);
+}
+.flex-container {
+  display: none;
+}
+.flex-container {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 150px;
+  margin-top: 400px;
+  color: white;
+  text-shadow: 5px 5px 3px rgb(20, 20, 20);
+} */
+ /* box {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 200px;
+  margin-top: 400px;
+  color: white;
+  text-shadow: 5px 5px 3px rgb(20, 20, 20);
+}
+#num {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 250px;
+  margin-top: 400px;
+  color: white;
+  text-shadow: 5px 5px 3px rgb(20, 20, 20);
+} */ 
